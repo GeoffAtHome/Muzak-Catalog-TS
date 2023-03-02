@@ -1,0 +1,9 @@
+ask-resources.json
+.ask
+.vscode
+assets/*
+lambda/*
+lib/*
+node_modules
+src/config.ts
+lambda/node_modules
