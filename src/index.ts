@@ -9,9 +9,9 @@ async function main() {
     const artists = await AddArtists();
     const tracks = await AddTracks();
 
-    writeAssets("albums", albums);
-    writeAssets("artists", artists);
-    writeAssets("tracks", tracks);
+    await writeAssets("albums", albums);
+    await writeAssets("artists", artists);
+    await writeAssets("tracks", tracks);
   } catch (error) {
     console.log("Something went wrong!");
     console.log(error);

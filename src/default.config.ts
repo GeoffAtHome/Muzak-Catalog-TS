@@ -3,4 +3,6 @@ export const config = {
   PORT: 9000,
   username: "",
   password: "",
+  from: "",
+  to: "",
 };
